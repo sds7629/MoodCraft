@@ -1,1 +1,1 @@
-# psychologyTest
+# PsychologicalTest
