@@ -10,7 +10,7 @@ This is Yeaeun's folder for the MoodCraft project.
 ## Project Contributions
 
 - **Role**: Frontend Developer, UI/UX Designer, Slack Management, and GitHub/Git Management
-  <br/>프론트엔드 개발자, UI/UX 디자이너, 슬랙 관리, GitHub/Git 관리<br/></br/>
+  <br/>프론트엔드 개발자, UI/UX 디자이너, 슬랙 관리, GitHub/Git 관리<br/><br/>
 
 - **Responsibilities**:
 
