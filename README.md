@@ -31,8 +31,8 @@ MoodCraft project is currently being developed by a team of 4 members. Therefore
 
 ## License
 
-MoodCraft project is distributed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-<br/><br/>MoodCraft 프로젝트는 MIT 라이선스 하에 배포됩니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참고해주세요.
+MoodCraft project is distributed under the terms of the MIT License. See the [LICENSE](https://github.com/DEV-Yangkong/MoodCraft/blob/main/LICENSE) file for more details.
+<br/><br/>MoodCraft 프로젝트는 MIT 라이선스 하에 배포됩니다. 자세한 내용은 [LICENSE](https://github.com/DEV-Yangkong/MoodCraft/blob/main/LICENSE) 파일을 참고해주세요.
 
 ---
 
