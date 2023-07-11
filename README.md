@@ -26,8 +26,8 @@ MoodCraft recommends drinks tailored to the user's current mood and situation. T
 
 ## Contribution
 
-MoodCraft project is currently being developed by a team of 4 members. Therefore, additional team members cannot be accommodated at this time. However, any contributions from the existing team members to improve the project are welcome. This includes bug reports, feature suggestions, code improvements, and any other forms of contribution to help advance the project.
-<br/><br/>MoodCraft 프로젝트는 현재 구성된 4명의 팀원으로 진행 중입니다. 따라서 새로운 팀원의 추가는 불가능합니다. 그러나 기존 팀원들이 프로젝트를 발전시키기 위해 노력하고자 하는 모든 기여는 환영합니다. 버그 리포트, 기능 제안, 코드 개선 등의 기여를 통해 프로젝트를 함께 발전시킬 수 있습니다.
+MoodCraft project is currently being developed by a team of 4 members. Therefore, additional team members cannot be accommodated at this time. However, the existing team members are encouraged to contribute to the project's improvement. This includes bug reports, feature suggestions, code improvements, and any other forms of contribution that can help advance the project.
+<br/><br/>MoodCraft 프로젝트는 현재 4명의 팀원으로 진행 중입니다. 따라서 새로운 팀원의 추가는 현재로서는 불가능합니다. 그러나 기존 팀원들은 프로젝트를 함께 발전시키기 위해 노력하고자 하는 모든 기여를 환영합니다. 버그 리포트, 기능 제안, 코드 개선 등의 기여를 통해 프로젝트를 함께 발전시킬 수 있습니다.
 
 ## License
 
