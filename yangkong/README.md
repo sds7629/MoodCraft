@@ -1,6 +1,8 @@
 # Yeaeun's(=Yangkong) Folder
 
-This is Yeaeun's folder for the MoodCraft project.
+<br/>
+### This is Yeaeun's folder for the MoodCraft project.
+<br/>
 
 ---
 
@@ -8,6 +10,8 @@ This is Yeaeun's folder for the MoodCraft project.
 
 - **Name**: Yeaeun Yang (Yangkong)
 - **GitHub**: [DEV-Yangkong](https://github.com/DEV-Yangkong)
+
+<br/>
 
 ## Project Contributions
 
@@ -38,11 +42,14 @@ This is Yeaeun's folder for the MoodCraft project.
 - Utilized the ChatGPT model for script writing and dialogue generation
   <br/>ChatGPT 모델을 활용한 대본 스크립트 작성 및 대화 생성<br/><br/>
 
+<br/>
+
 ## GitHub/Git Management
 
 - **GitHub Repository**: [DEV-Yangkong/MoodCraft](https://github.com/DEV-Yangkong/MoodCraft)
 
 ---
 
-Feel free to explore the contents of this folder and reach out to me if you have any questions or suggestions!
+### Feel free to explore the contents of this folder and reach out to me if you have any questions or suggestions!
+
 <br/>이 폴더의 내용을 살펴보고 질문이나 제안이 있으면 언제든지 연락해주세요!
