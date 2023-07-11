@@ -42,5 +42,7 @@ This is Yeaeun's folder for the MoodCraft project.
 
 - **GitHub Repository**: [DEV-Yangkong/MoodCraft](https://github.com/DEV-Yangkong/MoodCraft)
 
+---
+
 Feel free to explore the contents of this folder and reach out to me if you have any questions or suggestions!
 <br/>이 폴더의 내용을 살펴보고 질문이나 제안이 있으면 언제든지 연락해주세요!
