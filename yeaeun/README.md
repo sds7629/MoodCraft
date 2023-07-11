@@ -4,7 +4,7 @@ This is Yeaeun's folder for the MoodCraft project.
 
 ## About Me
 
-- **Name**: Yeaeun
+- **Name**: Yeaeun Yang
 - **GitHub**: [DEV-Yangkong](https://github.com/DEV-Yangkong)
 
 ## Project Contributions
