@@ -16,4 +16,8 @@ This is Garim's folder for the MoodCraft project.
   - Collaborating with the team to ensure efficient communication between the frontend and backend components.
   - Conducting tests and debugging to ensure the smooth operation of the backend.
 
+## GitHub/Git Management
+
+- **GitHub Repository**: [DEV-Yangkong/MoodCraft](https://github.com/DEV-Yangkong/MoodCraft)
+
 Feel free to explore the contents of this folder and reach out to me if you have any questions or suggestions!

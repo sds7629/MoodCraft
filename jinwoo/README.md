@@ -17,4 +17,8 @@ This is Jinwoo's folder for the MoodCraft project.
   - Conducting tests and debugging to ensure the smooth operation of the backend.
   - Managing the team's Slack workspace and facilitating effective communication among members.
 
+## GitHub/Git Management
+
+- **GitHub Repository**: [DEV-Yangkong/MoodCraft](https://github.com/DEV-Yangkong/MoodCraft)
+  
 Feel free to explore the contents of this folder and reach out to me if you have any questions or suggestions!
