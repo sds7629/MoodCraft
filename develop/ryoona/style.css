@@ -1,0 +1,21 @@
+
+.result {
+    border: 1px solid gray;
+    width: 500px;
+    height: 300px;
+    background-color: gray;
+    justify-content: center;
+    margin-left: 30%;
+    text-align: center;
+}
+
+.ad {
+    border: 1px solid gray;
+    width: 800px;
+    height: 100px;
+    background-color: gray;
+    margin-top: 50px;
+    margin-left: 20%;
+    justify-content: center;
+    text-align: center;
+}
