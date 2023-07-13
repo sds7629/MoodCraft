@@ -22,4 +22,3 @@ class ResultDetail(APIView):
         result = ResultDetailModel.objects.all()
         serializer = ResultDetailSerializer(result, many = True)
         return Response(serializer.data)
-# Create your views here.
