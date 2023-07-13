@@ -1,0 +1,50 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    width: 584px;
+    height: 877px;
+    border: 3px solid red;
+
+}
+
+.mood {
+    width: 1rem;
+    margin-left: 43px;
+    margin-top: 40px;
+    /* object-fit: cover; */
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.character {
+    border: 1px solid lightgrey;
+    background-color: lightgray;
+    width: 93px;
+    height: 240px;
+    margin-top: 50px;
+}
+.contain {
+    margin: 20px;
+}
+
+.content {
+    margin-top: 10px;
+
+}
+
+#main {
+    margin-top: 100px;
+    margin-left: 245px;
+}
+
+.ad {
+    border: 3px solid lightblue;
+    width: 573px;
+    height: 110px;
+    background-color: lightblue;
+    margin-top: 50px;
+}
