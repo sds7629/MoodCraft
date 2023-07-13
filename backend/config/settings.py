@@ -32,7 +32,9 @@ ALLOWED_HOSTS = []
 
 CUSTOM_APPS = [
     "results.apps.ResultsConfig",
-    "visiters.apps.VisitersConfig",]
+    "visiters.apps.VisitersConfig",
+    "rest_framework",
+    ]
 
 DEFAULT_APPS = [
     'django.contrib.admin',
