@@ -8,3 +8,13 @@ class Result(models.Model):
 
     def __str__(self):
         return self.drink_kind
+
+class ResultDetailModel(models.Model):
+    drink_name = models.CharField(max_length = 15, verbose_name="술 이름")
+    description = models.TextField(verbose_name="설명")
+    before_result = models.ForeignKey(
+        "results.Result",
+        related_name="results",
+        on_delete= models.CASCADE,
+        verbose_name="술 종류"
+    )
