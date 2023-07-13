@@ -1,10 +1,10 @@
 from django.shortcuts import render
-from .models import Visiter,Count
+from .models import Visiter
 from rest_framework.views import APIView
 from rest_framework.serializers import ModelSerializer
 from rest_framework.response import Response
 
-from .serializer import VisiterSerializer,CountSerializer
+from .serializer import VisiterSerializer
 
 # Create your views here.
 
@@ -27,7 +27,7 @@ class AllVisiters(APIView):
 
 #     def get(self, request):
 #         counts = Count.objects.all()
-#         counts.click()
+#         counts.update_counter()
 #         counts.save()
 #         serializer = CountSerializer(counts)
 #         return Response(serializer.data)

@@ -1,11 +1,13 @@
 from django.contrib import admin
-from .models import Visiter,Count
+from .models import Visiter
 # Register your models here.
 @admin.register(Visiter)
 class VisiterAdmin(admin.ModelAdmin):
-    # list_display = ("age", "gender",)
-    pass
+    list_per_page = 10
+    list_display = ("age", "gender",)
+    list_filter = ['age','gender']
+    
 
-@admin.register(Count)
-class CountAdmin(admin.ModelAdmin):
-    pass
+# @admin.register(Count)
+# class CountAdmin(admin.ModelAdmin):
+#     pass

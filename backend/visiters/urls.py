@@ -3,5 +3,5 @@ from . import views
 
 urlpatterns = [
     path("",views.AllVisiters.as_view()),
-    path("counts/",views.Counts.as_view()),
+    # path("counts/",views.Counts.as_view()),
 ]
