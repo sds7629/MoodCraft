@@ -17,15 +17,16 @@ body {
 
 .box {
     display: flex;
+    flex-wrap: wrap;
+    /* 가로가 차면 밑으로 내려 주는 역할 */
     justify-content: center;
     margin-top: 30px;
 }
 .character {
-    border: 1px solid lightgrey;
-    background-color: lightgray;
-    width: 93px;
-    height: 240px;
-    margin-top: 50px;
+   border-radius: 10px;
+    width: 180px;
+    height: 200px;
+    margin-top: 30px;
 }
 .contain {
     margin: 20px;
@@ -37,8 +38,8 @@ body {
 }
 
 #main {
-    margin-top: 100px;
-    margin-left: 245px;
+    margin-top: 20px;
+    margin-left: 270px;
 }
 
 .ad {
