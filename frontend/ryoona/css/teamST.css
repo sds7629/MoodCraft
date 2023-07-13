@@ -11,7 +11,7 @@ body {
 .mood {
     width: 1rem;
     margin-left: 43px;
-    margin-top: 40px;
+    margin-top: 30px;
     /* object-fit: cover; */
 }
 
@@ -21,19 +21,24 @@ body {
     /* 가로가 차면 밑으로 내려 주는 역할 */
     justify-content: center;
     margin-top: 30px;
+    align-items: center;
 }
 .character {
    border-radius: 10px;
     width: 180px;
     height: 200px;
-    margin-top: 30px;
+    margin: 10px 0 0 10px;
 }
 .contain {
     margin: 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 192, 203);
+    width: 200px;
+    height: 290px;
 }
 
 .content {
-    margin-top: 10px;
+    margin: 10px 0 0 10px;
 
 }
 
