@@ -16,6 +16,9 @@ class ResultInfo(APIView):
         result.save()
         serializer = ResultSerializer(result)
         return Response(serializer.data)
+
+   
+
     
 class ResultDetail(APIView):
     def get(self, request, pk):
