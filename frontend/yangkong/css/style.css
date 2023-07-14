@@ -1,0 +1,75 @@
+body {
+  text-align: center;
+}
+
+#centerWrap {
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+#mainImage {
+  width: 330px;
+  height: 330px;
+}
+
+#bigTitle {
+  margin-top: 35px;
+  font-size: 30px;
+  font-family: "Nanum Pen Script", cursive;
+  margin-top: -10px;
+}
+
+#smallTitle {
+  margin-top: -40px;
+  font-family: "Indie Flower", cursive;
+  font-size: 15px;
+}
+
+#mainButton {
+  border: 1px solid #143196;
+  background-color: #143196;
+  color: white;
+  font-size: 20px;
+  border-radius: 50px;
+  width: 390px;
+  height: 90px;
+  margin-top: 30px;
+}
+
+#participantsWrapper {
+  margin-top: 30px;
+}
+
+.participantText {
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+/* 얘 마진 조정해야함 */
+#mainAdvertising {
+  display: inline-block;
+  width: 1000px;
+  margin-top: 30px;
+  height: 50px;
+  background-color: blanchedalmond;
+  font-size: 30px;
+}
+
+#kakaotalkImg {
+  width: 42px;
+  height: 42px;
+}
+
+.sns {
+  list-style-type: none;
+  padding: 0;
+}
+
+.snslist {
+  display: inline-block;
+  margin: 15px 10px;
+}
