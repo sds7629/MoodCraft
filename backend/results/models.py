@@ -17,4 +17,6 @@ class ResultDetailModel(models.Model):
         related_name="results",
         on_delete= models.CASCADE,
         verbose_name="술 종류"
-    )
+    ) 
+    def __str__(self):
+        return self.drink_name
