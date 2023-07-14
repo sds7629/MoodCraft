@@ -30,14 +30,9 @@ class ResultInfo(APIView):
     #         serializer = ResultSerializer(result)
 
 class ResultDetail(APIView):
-    def get_object(self, drink_kind):
-        try:
-            return ResultDetailModel.objects.get(drink_kind = drink_kind)
-        except:
-            raise NotFound
-        
-    def get(self, request, pk):
-        result = self.get_object(pk)
-        serializer = ResultDetailSerializer(result, many = True)
-        return Response(serializer.data)
+        def get(self, request, drink_kind):
+            result = Result.objects.get(drink_kind = drink_kind)
+            resultDetail = result.results.all()
+            serializer = ResultDetailSerializer(resultDetail, many = True)
+            return Response(serializer.data)
 # Create your views here.
