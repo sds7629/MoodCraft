@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/frontend/yangkong/css/style.css" />
-    <link rel="shortcut icon" href="/img/topBanner2.png" type="image/x-icon" />
-    <link rel="icon" href="/img/topBanner2.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon" />
+    <link rel="icon" href="/img/favicon.png" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -33,7 +33,12 @@
           <div id="smallTitle"><h2>MoodCraft</h2></div>
         </div>
         <div class="button">
-          <button id="mainButton">테스트 시작</button>
+          <button
+            id="mainButton"
+            onclick="goToNextPage('choices_html/choice_01.html')"
+          >
+            테스트 시작
+          </button>
         </div>
         <div id="participantsWrapper">
           <div id="participants" class="text participantText">참여자 수</div>
@@ -101,5 +106,6 @@
       </footer>
     </div>
     <script src="/frontend/yangkong/js/main.js"></script>
+    <script src="/frontend/yangkong/js/choice.js"></script>
   </body>
 </html>

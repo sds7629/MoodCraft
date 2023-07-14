@@ -7,6 +7,7 @@
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
   margin: 0 auto;
+  position: relative;
 }
 
 .bar_1 {
@@ -147,4 +148,18 @@
   text-align: center;
   margin-top: 15px;
   font-weight: 400;
+}
+
+.cheersImgContainer {
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translateY(-50%);
+}
+
+#cheersImg {
+  width: 90px;
+  height: 100px;
+  margin: -40px;
+  margin-left: 650px;
 }

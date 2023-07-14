@@ -1,0 +1,146 @@
+body {
+  text-align: center;
+}
+
+#centerWrap {
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.questionWrapper {
+  width: 100%;
+  margin: 10px auto;
+  position: relative;
+}
+
+#questionTheme {
+  width: 700px;
+  height: 150px;
+}
+
+#questionNumber {
+  position: absolute;
+  top: 17%;
+  left: 49.8%;
+  color: white;
+  font-size: 20px;
+}
+
+#questionNumber_10 {
+  position: absolute;
+  top: 17%;
+  left: 49.5%;
+  color: white;
+  font-size: 20px;
+}
+
+#question {
+  position: absolute;
+  top: 55%;
+  left: 32%;
+}
+
+#question span {
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 26px;
+}
+
+/* question_01의 미디어쿼리 */
+
+@media (max-width: 767px) {
+  #question {
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  #question {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  #question {
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (min-width: 1440px) {
+  #question {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.choicesWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.choices {
+  position: relative;
+  border: 3px solid #d9d9d9;
+  border-radius: 50%;
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+}
+
+#choiceImg_01 {
+  width: 100px;
+  height: 100px;
+  padding-top: 80px;
+}
+
+#choiceImg_02 {
+  width: 100px;
+  height: 100px;
+  padding-top: 80px;
+}
+
+.choiceText {
+  padding-top: 20px;
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: bold;
+}
+
+.buttonClick {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 20px auto;
+  left: 650px;
+}
+
+#prevButton {
+  background: #ffaa40;
+  border-radius: 10px;
+  font-weight: 600;
+  line-height: 50px;
+  color: #fff;
+  transition: all 0.2s;
+  margin-right: 50px;
+}
+
+#mainButton {
+  background: #5dc8cd;
+  border-radius: 10px;
+  font-weight: 600;
+  line-height: 50px;
+  color: #fff;
+  transition: all 0.2s;
+}

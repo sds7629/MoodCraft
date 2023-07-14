@@ -28,41 +28,39 @@
       <!-- 메인 -->
       <main>
         <div class="questionWrapper">
-          <div id="questionNumber"><span>1</span></div>
+          <div id="questionNumber_10"><span>10</span></div>
           <div><img id="questionTheme" src="/img/question_theme.png" /></div>
           <div id="question">
-            <span>
-              밥 한 그릇으로 푸짐하게 식사를 할 때 어떤 음식을 선호해?
-            </span>
+            <span> 정적인 운동과 활동적인 운동 중 어떤 운동을 더 좋아해? </span>
           </div>
         </div>
         <div class="choicesWrapper">
-          <div
-            id="choice_01"
-            class="choices"
-            onclick="goToNextPage('choice_02.html')"
-          >
+          <div id="choice_01" class="choices" onclick="goToNextPage()">
             <div class="choicesImg">
               <img
                 id="choiceImg_01"
-                src="/img/copyright/free-icon-kimchi-2276924.png"
-                alt="김치찌개"
+                src="/img/copyright/free-icon-exercise-1683155.png"
               />
             </div>
             <div class="choiceText" id="choiceTextKimchi">
-              <span>감칠맛 나는 김치찌개가 좋아!</span>
+              <span
+                >요가, 헬스트레이닝 같은<br />
+                정적인 운동이 좋아.</span
+              >
             </div>
           </div>
-          <div class="choices" onclick="goToNextPage('choice_02.html')">
+          <div id="choice_02" class="choices" onclick="goToNextPage()">
             <div class="choicesImg">
               <img
                 id="choiceImg_02"
-                src="/img/copyright/free-icon-miso-3183457.png"
-                alt="된장찌개"
+                src="/img/copyright/free-icon-tennis-2317991.png"
               />
             </div>
             <div class="choiceText" id="choiceTextMiso">
-              <span>진하고 고소한 된장찌개가 땡겨!</span>
+              <span
+                >테니스나 등산 같은<br />
+                활동적인 운동을 좋아.</span
+              >
             </div>
           </div>
         </div>
@@ -71,7 +69,7 @@
       <footer>
         <!-- 프로그래스바 나중에 리액트로 고치기 -->
         <div class="progressContainer">
-          <div class="bar_1">1/10</div>
+          <div class="bar_10">10/10</div>
           <div class="cheersImgContainer">
             <img
               id="cheersImg"
@@ -82,6 +80,9 @@
         </div>
 
         <div class="buttonClick">
+          <button id="prevButton" onclick="goToNextPage('choice_09.html')">
+            이전으로
+          </button>
           <button id="mainButton" onclick="goToNextPage('../mainPage.html')">
             다시하기
           </button>
