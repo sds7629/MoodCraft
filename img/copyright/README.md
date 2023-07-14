@@ -130,3 +130,23 @@ free-icon-exercise-1683155
 
 <a href="https://www.flaticon.com/kr/free-icons/" title="테니스 아이콘">테니스 아이콘 제작자: dDara - Flaticon</a>
 free-icon-tennis-2317991
+
+<!--  -->
+
+<a href="https://www.flaticon.com/kr/free-icons/" title="소주 아이콘">소주 아이콘 제작자: shmai - Flaticon</a>
+free-icon-soju-5336012
+
+<!--  -->
+
+<a href="https://www.flaticon.com/kr/free-icons/" title="막걸리 아이콘">막걸리 아이콘 제작자: Freepik - Flaticon</a>
+free-icon-makgeolli-8740853
+
+<!--  -->
+
+<a href="https://www.flaticon.com/kr/free-icons/-" title="포도주 저장실 아이콘">포도주 저장실 아이콘 제작자: surang - Flaticon</a>
+free-icon-grape-wine-6191095
+
+<!--  -->
+
+<a href="https://www.flaticon.com/kr/free-icons/" title="위스키 아이콘">위스키 아이콘 제작자: Freepik - Flaticon</a>
+free-icon-whiskey-3500509

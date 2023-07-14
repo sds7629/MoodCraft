@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/frontend/yangkong/css/style.css" />
+    <link rel="stylesheet" href="/frontend/yangkong/css/result.css" />
     <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon" />
     <link rel="icon" href="/img/favicon.png" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -15,41 +15,29 @@
     <title>오늘의 술! - MoodCraft</title>
   </head>
   <body>
-    <!-- 👇🏻메인페이지입니다.👇🏻 -->
+    <!-- 👇🏻result 페이지 입니다.👇🏻 -->
     <!-- --------------------------------------------------------------------- -->
     <!-- 헤더 -->
     <div id="centerWrap">
       <header>
-        <div>
-          <img src="/img/topBannerRound.png" id="mainImage" />
+        <div class="text">
+          <div id="bigTitle"><h1>MoodCraft</h1></div>
+          <div id="smallTitle">
+            <span>오늘 당신에게 추천하는 술의 종류는 !</span>
+          </div>
         </div>
       </header>
       <!-- 메인 -->
       <main>
-        <div id="titleWrapper">
-          <div id="bigTitle" class="text">
-            <h1>오늘, 나의 기분과 어울리는 술은?</h1>
-          </div>
-          <div id="smallTitle"><h2>MoodCraft</h2></div>
+        <div class="resultMainWrapper">
+          <img id="resultTopImg" src="/img/beerMain.png" />
         </div>
-        <div class="button">
-          <button
-            id="startButton"
-            onclick="goToNextPage('choices_html/choice_01.html')"
-          >
-            테스트 시작
-          </button>
-        </div>
-        <div id="participantsWrapper">
-          <div id="participants" class="text participantText">참여자 수</div>
-          <div id="numbers" class="text participantText">0000000</div>
-        </div>
-      </main>
-      <footer>
         <!-- 광고배너 구현하기 -->
         <div id="mainAdvertising" class="advertisingBanner">광고배너</div>
+      </main>
+      <footer>
+        <!-- 아이콘 뽑아와야함 -->
         <div id="mainApiWrapper">
-          <!-- 아이콘 뽑아와야함 -->
           <ul class="sns">
             <li class="kakaotalk snslist">
               <a
@@ -72,12 +60,10 @@
               >
             </li>
             <div class="buttonClick">
-              <button
-                id="teamButton"
-                onclick="goToNextPage('./team.html')"
-              >
-                MoodCraft
+              <button id="mainButton" onclick="goToNextPage('./mainPage.html')">
+                Main
               </button>
+            </div>
             <li class="twitter snslist">
               <a
                 href="#n"
