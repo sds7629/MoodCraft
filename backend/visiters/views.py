@@ -22,15 +22,3 @@ class AllVisiters(APIView):
         if serializer.is_valid():
             serializer.save()
             return Response("success") 
-<<<<<<< HEAD
-=======
-
-# class Counts(APIView):
-
-#     def get(self, request):
-#         counts = Count.objects.all()
-#         counts.update_counter()
-#         counts.save()
-#         serializer = CountSerializer(counts)
-#         return Response(serializer.data)
->>>>>>> 0f72ee030948cd426dd102df9338d0d358bffc5c
