@@ -45,7 +45,7 @@ body {
 }
 
 .participantText {
-  margin-top: 10px;
+  margin-top: 6px;
   font-size: 25px;
 }
 
@@ -53,15 +53,10 @@ body {
 #mainAdvertising {
   display: inline-block;
   width: 1000px;
-  margin-top: 30px;
+  margin-top: 15px;
   height: 50px;
   background-color: blanchedalmond;
   font-size: 30px;
-}
-
-#kakaotalkImg {
-  width: 42px;
-  height: 42px;
 }
 
 .sns {
@@ -71,7 +66,7 @@ body {
 
 .snslist {
   display: inline-block;
-  margin: 15px 10px;
+  margin: 10px 10px;
 }
 
 .buttonClick {
@@ -82,11 +77,10 @@ body {
 }
 
 #teamButton {
-  border: 3px solid #1b1b7c;
-  background: #1b1b7c;
-  border-radius: 10px;
-  font-weight: 600;
-  line-height: 35px;
-  color: #fff;
-  transition: all 0.2s;
+  border: none;
+  background: none;
+}
+
+#teamButtonImg {
+  width: 50px;
 }
