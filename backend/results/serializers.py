@@ -3,7 +3,7 @@ from .models import Result, ResultDetailModel
 class ResultSerializer(ModelSerializer):
     class Meta:
         model = Result
-        fields = "__all__"
+        fields = ("name", "description", "drink_count")
 
 class ResultDetailSerializer(ModelSerializer):
     class Meta:
