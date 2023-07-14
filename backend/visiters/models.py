@@ -18,3 +18,4 @@ class Visiter(models.Model):
     result = models.ForeignKey("results.Result",on_delete=models.CASCADE, null=True)
     result_detail = models.ForeignKey("results.ResultDetailModel", on_delete= models.CASCADE, null=True)
     
+#무슨 문제일까
