@@ -1,0 +1,92 @@
+body {
+  text-align: center;
+}
+
+#centerWrap {
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+#mainImage {
+  width: 700px;
+  height: 600px;
+}
+
+.questionWrapper {
+  width: 100%;
+  margin: 10px auto;
+  position: relative;
+}
+
+#questionTheme {
+  width: 700px;
+  height: 150px;
+  vertical-align: middle;
+}
+
+#questionNumber {
+  position: absolute;
+  top: 17%;
+  left: 50%;
+  color: white;
+  font-size: 20px;
+}
+
+#question_01 {
+  position: absolute;
+  top: 55%;
+  left: 32%;
+}
+
+#question_01 span {
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 35px;
+}
+
+.choicesWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.choices {
+  position: relative;
+  border: 3px solid #d9d9d9;
+  border-radius: 50%;
+  margin: 20px;
+  width: 300px;
+  height: 300px;
+}
+
+#kimchi {
+  width: 100px;
+  height: 100px;
+  padding-top: 80px;
+}
+
+#miso {
+  width: 100px;
+  height: 100px;
+  padding-top: 80px;
+}
+
+.choiceText {
+  padding-top: 20px;
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: bold;
+}
+
+.cheersImgContainer {
+  display: inline-block;
+  position: absolute;
+}
+
+#cheersImg {
+  width: 90px;
+  height: 100px;
+  margin: -50px;
+  margin-left: 300px;
+}
