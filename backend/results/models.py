@@ -11,14 +11,16 @@ class Result(models.Model):
         return self.drink_kind
 
 class ResultDetailModel(models.Model):
-    drink_name = models.CharField(max_length = 15, verbose_name= "술 이름 영어")
-    name = models.CharField(max_length = 15, verbose_name="술 이름")
-    description = models.TextField(verbose_name="설명")
+    drink_name = models.CharField(max_length = 15, verbose_name= "술 이름 영어", blank = True, null = True)
+    name = models.CharField(max_length = 15, verbose_name="술 이름", blank = True, null = True)
+    description = models.TextField(verbose_name="설명", blank = True, null = True)
+    dosu = models.CharField(max_length=10, verbose_name="도수")
+    sweet = models.CharField(max_length= 20, verbose_name= "당도")
     before_result = models.ForeignKey(
         "Result",
         related_name="results",
         on_delete= models.CASCADE,
-        verbose_name="술 종류"
+        verbose_name="술 종류",
     )
 
     

@@ -8,4 +8,4 @@ class ResultSerializer(ModelSerializer):
 class ResultDetailSerializer(ModelSerializer):
     class Meta:
         model = ResultDetailModel
-        fields = ("drink_name", "description", "before_result",)
+        fields = "__all__"
