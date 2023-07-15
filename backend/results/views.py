@@ -31,4 +31,4 @@ class ResultDetail(APIView):
             return Response(serializer.data)
         
         
-# Create your views here.
+
