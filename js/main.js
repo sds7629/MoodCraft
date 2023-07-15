@@ -6,15 +6,15 @@ function goToNextPage(page) {
 // // 이미지 변경 함수
 let count = 1;
 function updateImage() {
-  const choiceImgElement1 = document.getElementById("choiceImg_01");
-  const choiceImgElement2 = document.getElementById("choiceImg_02");
-  const imagePath1 = `../img/choice1/choice_${count}.png`; // 각 선택지에 해당하는 이미지 경로
-  const imagePath2 = `../img/choice2/choice_${count}.png`; // 각 선택지에 해당하는 이미지 경로
-  choiceImgElement1.src = imagePath1;
-  choiceImgElement2.src = imagePath2;
-  count++;
-
-  if (count > 10) {
+  if (count <= 9) {
+    const choiceImgElement1 = document.getElementById("choiceImg_01");
+    const choiceImgElement2 = document.getElementById("choiceImg_02");
+    const imagePath1 = `../img/choice1/choice_${count}.png`; // 각 선택지에 해당하는 이미지 경로
+    const imagePath2 = `../img/choice2/choice_${count}.png`; // 각 선택지에 해당하는 이미지 경로
+    choiceImgElement1.src = imagePath1;
+    choiceImgElement2.src = imagePath2;
+    count++;
+  } else {
     openResultModal();
   }
 }
@@ -34,7 +34,6 @@ function downdateImage() {
     }
   }
 }
-
 // 이전 모달 열기
 function openPreviousModal() {
   const modal = document.getElementById("previousModal");
@@ -56,8 +55,8 @@ function openResultModal() {
   const resultButton = document.getElementById("resultButton");
   resultButton.addEventListener("click", function () {
     // 사용자의 성별과 나이대 정보 가져오기
-    const gender = document.getElementById("gender").value;
-    const age = document.getElementById("age").value;
+    const gender = document.querySelector("input[name='gender']:checked").value;
+    const age = document.querySelector("input[name='age']:checked").value;
 
     // 결과 페이지로 이동
     const resultPage = `./resultKind.html?gender=${gender}&age=${age}`;
@@ -83,3 +82,5 @@ window.addEventListener("load", function () {
   const modal = document.getElementById("myModal");
   modal.style.display = "block";
 });
+
+// 정상출력됨 ☝🏻

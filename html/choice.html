@@ -85,24 +85,35 @@
 
         <!-- 결과보기 모달 -->
         <div id="resultModal" class="modal">
-          <div class="modal-content">
+          <div class="modalContent">
             <span class="close">&times;</span>
             <h2>성별 및 나이대 입력</h2>
-            <div class="form-group">
-              <label for="gender">성별:</label>
-              <select id="gender" name="gender">
-                <option value="male">남성</option>
-                <option value="female">여성</option>
-              </select>
+            <div class="formGroup">
+              <label>성별:</label>
+              <input
+                type="radio"
+                id="male"
+                name="gender"
+                value="male"
+                checked
+              />
+              <label for="male">남성</label>
+              <input type="radio" id="female" name="gender" value="female" />
+              <label for="female">여성</label>
             </div>
-            <div class="form-group">
-              <label for="age">나이대:</label>
-              <select id="age" name="age">
-                <option value="10s">10대</option>
-                <option value="20s">20대</option>
-                <option value="30s">30대</option>
-                <!-- 다른 나이대 옵션들 추가 -->
-              </select>
+            <div class="formGroup">
+              <label>나이대:</label>
+              <input type="radio" id="20s" name="age" value="20s" checked />
+              <label for="20s">20대</label>
+              <input type="radio" id="30s" name="age" value="30s" />
+              <label for="30s">30대</label>
+              <input type="radio" id="40s" name="age" value="40s" />
+              <label for="40s">40대</label>
+              <input type="radio" id="50s" name="age" value="50s" />
+              <label for="50s">50대</label>
+              <input type="radio" id="60s" name="age" value="60s" />
+              <label for="60s">60대</label>
+              <!-- 다른 나이대 옵션들 추가 -->
             </div>
             <button id="resultButton">결과보기</button>
           </div>

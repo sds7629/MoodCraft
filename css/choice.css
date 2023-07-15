@@ -179,7 +179,7 @@ body {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-.modal-content {
+.modalContent {
   background-color: #fefefe;
   margin: 10% auto;
   padding: 20px;
@@ -203,4 +203,16 @@ body {
   cursor: pointer;
 }
 
-/* 나머지 모달 스타일링은 기존과 동일하게 유지 */
+#resultButton {
+  margin-top: 10px;
+  background: #5dc8cd;
+  border-radius: 10px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #fff;
+  transition: all 0.2s;
+}
+
+.formGroup {
+  margin-top: 10px;
+}
