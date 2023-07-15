@@ -1,0 +1,74 @@
+body {
+  text-align: center;
+}
+
+#centerWrap {
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+#bigTitle {
+  font-size: 50px;
+  font-family: "Nanum Pen Script", cursive;
+  margin-top: -65px;
+}
+
+#smallTitle {
+  font-size: 30px;
+  font-family: "Nanum Pen Script", cursive;
+  margin-top: -80px;
+}
+
+#resultTopImg {
+  margin-top: 10px;
+  width: 600px;
+  height: 500px;
+}
+
+#mainAdvertising {
+  display: inline-block;
+  width: 800px;
+  margin-top: 10px;
+  height: 50px;
+  background-color: blanchedalmond;
+  font-size: 30px;
+}
+
+.sns {
+  list-style-type: none;
+  padding: 0;
+}
+
+.snslist {
+  display: inline-block;
+  margin: 10px 10px;
+}
+
+.buttonClick {
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#mainButton {
+  background: #5dc8cd;
+  border-radius: 10px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #fff;
+  transition: all 0.2s;
+}
+
+#teamButton {
+  border: 1px solid white;
+  background: none;
+}
+
+#teamButtonImg {
+  width: 600px;
+}

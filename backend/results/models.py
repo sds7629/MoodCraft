@@ -23,4 +23,6 @@ class ResultDetailModel(models.Model):
         verbose_name="술 종류",
     )
 
-    
+    def __str__(self):
+        return self.drink_name
+

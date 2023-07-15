@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "moodcraft"
+name = "backend"
 version = "0.1.0"
 description = ""
 authors = ["galim-kang <togarim@naver.com>"]
@@ -8,8 +8,6 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 django = "^4.2.3"
-djangorestframework = "^3.14.0"
-pillow = "^10.0.0"
 
 
 [build-system]
