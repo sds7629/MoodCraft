@@ -21,5 +21,10 @@ class ResultDetailAdmin(admin.ModelAdmin):
         "drink_name",
         "description",
         "before_result",
+        "dosu",
+        "sweet",
+        "image",
     )
+
+
 # Register your models here.

@@ -21,7 +21,7 @@ class ResultInfo(APIView):
 
 
 class ResultDetail(APIView):
-        def get(self, request, drink_kind, *args, **kwargs):     
+        def get(self, request,drink_kind, *args, **kwargs):
             dosu = request.GET.get("dosu",None)
             sweet = request.GET.get("sweet",None)
 
@@ -31,4 +31,3 @@ class ResultDetail(APIView):
             return Response(serializer.data)
         
         
-
